@@ -1,0 +1,34 @@
+.parent {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin: 0 auto;
+}
+
+.child {
+    margin: 100px auto;
+    justify-content: center;
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-between;
+}
